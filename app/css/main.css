@@ -50,9 +50,6 @@ body {
 .main-nav_elem_link {
   color: #1a1a1a; }
 
-.main-nav_elem.active {
-  border-bottom: 2px solid #1a1a1a; }
-
 .s-about_header {
   height: 500px;
   display: -webkit-box;
@@ -194,13 +191,16 @@ body {
   background-size: cover; }
 
 .testimonial_slide-one {
-  background: url("../img/testimotial_slider-one.jpg") no-repeat; }
+  background: url("../img/testimotial_slider-one.jpg") no-repeat;
+  background-size: cover; }
 
 .testimonial_slide-two {
-  background: url("../img/testimotial_slider-two.jpg") no-repeat; }
+  background: url("../img/testimotial_slider-two.jpg") no-repeat;
+  background-size: cover; }
 
 .testimonial_slide-three {
-  background: url("../img/testimotial_slider-three.jpg") no-repeat; }
+  background: url("../img/testimotial_slider-three.jpg") no-repeat;
+  background-size: cover; }
 
 .testimonial_slide_content {
   padding-top: 80px;
@@ -397,7 +397,8 @@ body {
     font-weight: 400;
     padding: 16px;
     width: 100%;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    cursor: pointer; }
 
 .gallery-wrapper {
   display: -webkit-box;
@@ -555,4 +556,20 @@ body {
     color: #fff;
     text-transform: uppercase;
     font-size: 1.4em;
-    font-weight: 700; }
+    font-weight: 700;
+    cursor: pointer; }
+
+.map {
+  height: 800px; }
+
+.footer {
+  padding: 150px 0 65px; }
+  .footer .authors {
+    margin-top: 115px;
+    display: block;
+    text-align: center;
+    font: 400 1.2em/1.5 "Open Sans", "Arial", sans-serif;
+    color: #000; }
+    .footer .authors a {
+      color: inherit;
+      border-bottom: 1px solid #000; }

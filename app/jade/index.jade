@@ -6,7 +6,7 @@ html(lang='en')
 			header.main-header#home
 				nav.main-nav
 					ul.main-nav_box.main-nav_left
-						li.main-nav_elem.active
+						li.main-nav_elem
 							a(href="#home").main-nav_elem_link Home
 						li.main-nav_elem 
 							a(href="#about").main-nav_elem_link About
@@ -16,9 +16,9 @@ html(lang='en')
 						img(src="img/logo.png", alt="logotype")
 					ul.main-nav_box.main-nav_right
 						li.main-nav_elem
-							a(href="#faq").main-nav_elem_link Faq
+							a(href="#about").main-nav_elem_link Faq
 						li.main-nav_elem
-							a(href="#find").main-nav_elem_link Find us
+							a(href="#map").main-nav_elem_link Find us
 						li.main-nav_elem
 							a(href="#contact").main-nav_elem_link Contact
 			section#about.s-about
@@ -418,4 +418,24 @@ html(lang='en')
 							input(type="mail",placeholder="email",name="mail")
 							textarea(name="textarea",cols="30",rows="12",placeholder="message")
 							input(type="submit",name="submit",value="message")
+			section#map.map
+			footer#footer.footer
+				nav.main-nav
+					ul.main-nav_box.main-nav_left
+						li.main-nav_elem
+							a(href="#home").main-nav_elem_link Home
+						li.main-nav_elem 
+							a(href="#about").main-nav_elem_link About
+						li.main-nav_elem
+							a(href="#gallery").main-nav_elem_link Gallery
+					.main-logo
+						img(src="img/logo.png", alt="logotype")
+					ul.main-nav_box.main-nav_right
+						li.main-nav_elem
+							a(href="#about").main-nav_elem_link Faq
+						li.main-nav_elem
+							a(href="#map").main-nav_elem_link Find us
+						li.main-nav_elem
+							a(href="#contact").main-nav_elem_link Contact
+				span.authors © 2014  InkTattoo. All rights reserved - Designed by <a href="http://theuncreativelab.com" target="_blank">theuncreativelab.com</a>. Development by <a target="_blank" href="http://sviriden.co">Dmitry</a>
 	include ./includes/footer.jade
