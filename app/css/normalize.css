@@ -35,3 +35,6 @@ sub {
 sup {
   top: -0.5em;
 }
+input, textarea{
+	outline: none;
+}
