@@ -61,4 +61,6 @@ gulp.task('build', ["clean", "sass"], function() {
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('dist'));
 
+    var buildFonts = gulp.src('app/fonts/**/*') // Dest fonts in production
+    .pipe(gulp.dest('dist/fonts'))
 });
